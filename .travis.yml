@@ -17,4 +17,4 @@ cache:
       
       
 script:
-   - mvn clean verify #sonar:sonar -Dsonar.projectKey=Predictabowl_APT_Project
+   - mvn clean verify sonar:sonar -Dsonar.projectKey=Predictabowl_travis-sonarcloud.test
